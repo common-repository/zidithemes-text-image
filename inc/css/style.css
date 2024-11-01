@@ -1,0 +1,98 @@
+/*
+
+FRONTEND CSS
+
+*/
+
+
+.wp-block-zidithemes-text-img-block {}
+
+.wp-block-zidithemes-text-img-block .zidithemes-mg{}
+
+.wp-block-zidithemes-text-img-block .zidithemes-mg .grid-wrap{
+	display: grid !important;
+    background: #3f3f3f;
+    grid-template-columns: repeat(2, 2fr) !important;
+    transition: 0.5s !important;
+    padding: 0px 0px;
+    box-sizing: border-box;
+}
+
+.wp-block-zidithemes-text-img-block .zidithemes-mg .grid-wrap .grid-items{}
+
+.wp-block-zidithemes-text-img-block .zidithemes-mg .grid-wrap .grid-items .img-wrap {
+	margin: 50px 52px 50px;
+}
+
+.wp-block-zidithemes-text-img-block .zidithemes-mg .grid-wrap .grid-items .img-wrap .author-img {
+	width: 100% !important;
+    height: 380px !important;
+    display: block !important;
+    margin: 0px auto 0px !important;
+    box-shadow: 9px 13px 13px rgba(0, 0, 0, 0.2) !important;
+}
+
+.wp-block-zidithemes-text-img-block .zidithemes-mg .grid-wrap .grid-items:nth-child(1){
+	grid-row: 1/4;
+   //grid-column: 1/2;
+}
+
+.wp-block-zidithemes-text-img-block .zidithemes-mg .grid-wrap .grid-items:nth-child(2){
+	grid-row: 2/3;
+}
+
+.wp-block-zidithemes-text-img-block .zidithemes-mg .grid-wrap .grid-items .image-active{}
+.wp-block-zidithemes-text-img-block .zidithemes-mg .grid-wrap .grid-items .image-inactive{}
+
+.wp-block-zidithemes-text-img-block .zidithemes-mg .grid-wrap .grid-items .text-wrap {
+	
+}
+
+.wp-block-zidithemes-text-img-block .zidithemes-mg .grid-wrap .grid-items .text-wrap .content-title {
+	
+}
+
+.wp-block-zidithemes-text-img-block .zidithemes-mg .grid-wrap .grid-items .text-wrap .content-para {
+	
+}
+
+     
+/* BEGIN MOBILE SCREEN STYLE */
+		
+@media screen and (max-width: 767px)
+{
+	
+    
+    .mb-wid-100 { width: 100% !important; }
+    .mb-wid-97 { width: 97%; }
+    .mb-wid-95 { width: 95%; }
+    
+   
+
+	.wp-block-zidithemes-text-img-block .zidithemes-mg .grid-wrap{
+	    grid-template-columns: repeat(1, 1fr) !important;
+	}
+
+	.wp-block-zidithemes-text-img-block .zidithemes-mg .grid-wrap .grid-items:nth-child(1){
+		grid-row: 1/2 !important;
+	    grid-column: 1/1 !important;
+	}
+
+	.wp-block-zidithemes-text-img-block .zidithemes-mg .grid-wrap .grid-items:nth-child(2){
+		grid-row: 0/0 !important;
+	}
+
+
+	.wp-block-zidithemes-text-img-block .zidithemes-mg .grid-wrap .grid-items .img-wrap {
+		margin: 20px 15px !important;
+	}
+
+
+	.wp-block-zidithemes-text-img-block .zidithemes-mg .grid-wrap .grid-items .text-wrap {
+		margin: 20px 15px !important;
+	}
+
+	
+}
+		
+/* END MOBILE SCREEN STYLE */	
